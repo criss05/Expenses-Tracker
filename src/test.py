@@ -5,7 +5,7 @@ from src.domain.domain import Expenses
 from src.repository.MemoryRepository import MemoryRepository
 from src.services.service import Services
 
-
+# testing
 class TestFunction(TestCase):
     def setUp(self):
         self.__repository = MemoryRepository()
